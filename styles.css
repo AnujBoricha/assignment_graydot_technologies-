@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.container {
+  /* background-color: #333; */
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: 0.5;
+}
+.h3_Text {
+  text-align: center;
+  font-weight: bold;
+}
+.main1 {
+  background-color: #808080;
+  width: 50%;
+  float: left;
+}
+.solid {
+  color: white;
+}
+.container img.draggable {
+  height: 70px;
+}
+.main2 {
+  background-color: #b0c4de;
+  width: 50%;
+  float: right;
+}
+#success-message {
+  display: none;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+button#refresh-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}

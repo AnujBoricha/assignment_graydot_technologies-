@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Drag And Drop</title>
+  </head>
+  <body>
+    <!-- displaying the message after every drag and drop -->
+    <div id="success-message"></div>
+    <!-- container 1 -->
+    <div class="main1">
+      <h3 class="h3_Text">Container 1</h3>
+      <div class="container">
+        <p class="draggable" draggable="true">Item- 1</p>
+        <p class="draggable" draggable="true">
+          <ion-icon name="bicycle"></ion-icon>
+          <ion-icon name="bug"></ion-icon>
+        </p>
+        <p class="draggable" draggable="true">
+          <ion-icon name="bug"></ion-icon>
+        </p>
+        <img src="img1.png" alt="img1" class="draggable" />
+        <p class="draggable" draggable="true">Item- 2</p>
+
+        <p class="draggable" draggable="true">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque,
+          ratione. Repellendus, doloribus. Molestiae sapiente, error officiis
+          aliquam, quisquam nisi doloremque hic tempora blanditiis deserunt
+          suscipit aut nobis et maiores natus.
+        </p>
+      </div>
+    </div>
+    <!-- container 2 -->
+    <div class="main2">
+      <h3 class="h3_Text">Container 2</h3>
+      <div class="container">
+        <p class="draggable" draggable="true">Item -3</p>
+      </div>
+    </div>
+    <!-- button to reset both container -->
+    <button id="refresh-button">Refresh</button>
+  </body>
+</html>
